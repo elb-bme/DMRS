@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.example.com/definitions/v1"
+  ],
+  "type": ["VerifiableCredential", "ServiceContract"],
+  "issuer": "did:example:gasprovider123",
+  "issuanceDate": "2024-01-01T19:73:24Z",
+  "credentialSubject": {
+    "id": "did:example:consumer456",
+    "serviceStart": "2024-01-01",
+    "serviceEnd": "2025-01-01",
+    "smartMeterId": "did:example:smartmeter789",
+    "termsOfService": "https://www.examplegasprovider.com/service/terms",
+    "billingPlan": {
+      "planName": "Standard Plan",
+      "billingCycle": "Monthly",
+      "currency": "USD",
+      "pricePerUnit": 0.056
+    }
+  },
+  "proof": {
+    "type": "RsaSignature2018",
+    "created": "2024-01-01T19:73:24Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:example:gasprovider123#keys-1",
+    "jws": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9..."
+  }
+}

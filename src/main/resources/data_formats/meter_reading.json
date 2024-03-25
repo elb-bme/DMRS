@@ -1,0 +1,7 @@
+{
+  "meterId": "did:example:smartmeter789XYZ",
+  "counterValue": 10250,
+  "gasConsumption": 250,
+  "timestamp": "2024-03-15T14:30:00Z",
+  "signature": "dXNpZ25lZEhhc2gK"
+}

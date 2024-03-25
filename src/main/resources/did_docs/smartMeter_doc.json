@@ -1,0 +1,10 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:example:smartmeter456",
+  "authentication": [{
+    "id": "did:example:smartmeter456#keys-1",
+    "type": "Ed25519VerificationKey2018",
+    "controller": "did:example:smartmeter456",
+    "publicKeyBase58": "MeterPublicKey"
+  }]
+}
